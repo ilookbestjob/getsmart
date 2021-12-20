@@ -2,15 +2,6 @@
 class Zod
 {
 
-    private $server = '192.168.0.65';
-    private $base = 'zod00';
-    private $user = 'nt';
-    private $bdpassword = 'pr04ptz3';
-
-    private $serverteam = '192.168.0.61';
-    private $baseteam = 'nt';
-    private $userteam = 'nt';
-    private $bdpasswordteam = 'pr04ptz3';
 
     public $ctr = 0;
     public $producttype = ["Ликвидные", "Малоликвидные", "Нелеквидные", "Заказные"];
