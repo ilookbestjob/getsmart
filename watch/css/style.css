@@ -1,0 +1,130 @@
+body {
+  color: rgb(42, 37, 56);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.datarow {
+  width: 100%;
+  padding: 5px;
+  align-items: flex-start;
+  display: flex;
+}
+
+.datarow:nth-child(2n + 1) {
+  background-color:rgba(23, 122, 1, 0.103)
+}
+
+.datarow__name {
+  width: calc(100% - 900px);
+
+  display: inline-flex;
+
+  display: -ms-inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 5px;
+}
+
+.datarow__price {
+  width: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0 5px;
+}
+
+.datarow__tasks {
+  width: 800px;
+  display: inline-block;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.datarowheader {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(23, 122, 1) linear-gradient( rgb(27, 148, 0),rgb(23, 122, 1) );
+  color: #fff;
+
+  padding: 5px;
+}
+
+.datarowheader__name {
+  width: 40%;
+
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.datarowheader__price {
+  width: 100px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.datarowheader__tasks {
+  width: calc(60% - 100px);
+  display: inline-block;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.recommend {
+  width: 250px;
+  display: inline-block;
+}
+.recommend__name {
+  width: 100%;
+  display: block;
+  text-decoration: solid;
+  font-weight: 500;
+}
+
+.recommend__data {
+  margin-left: 25px;
+  width: calc(100% - 25px);
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.recommend__addprice {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.recommend__price {
+  margin-left: 10px;
+  display: inline-block;
+}
+
+.recommend__possibility {
+    margin-left: 10px;
+    display: inline-block;
+  }
+  
+
+.hightlightbad {
+  background:rgb(255, 153, 0) linear-gradient(rgba(255,255,255,0.25) 0%,rgba(255,255,255,0.25) 50%,transparent 50%);
+  padding:3px 5px;
+  color: #fff;
+  border-radius: 3px;
+}
+
+
+.hightlightok {
+  background:rgb(42, 146, 10) linear-gradient(rgba(255,255,255,0.25) 0%,rgba(255,255,255,0.25) 50%,transparent 50%);;
+  padding:3px 5px;
+  color: #fff;
+  border-radius: 3px;
+}

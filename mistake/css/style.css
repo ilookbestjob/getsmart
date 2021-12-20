@@ -1,0 +1,183 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 12pt;
+  font-weight: 450;
+  color: #0568a5;
+}
+
+.mistakewindow {
+  width: 950px;
+  height: auto;
+  background-color: #fafafa;
+  box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.3);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr 200px 60px;
+}
+.header {
+  background: #0568a5
+    linear-gradient(
+      rgba(255, 255, 255, 0.044) 0%,
+      rgba(255, 255, 255, 0.099) 50%,
+      transparent 50%,
+      transparent 100%
+    );
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+  padding-left: 15px;
+  display: flex;
+  align-items: center;
+}
+.footer {
+}
+.content {
+  display: grid;
+  grid-template-columns: 1fr 200px;
+}
+
+.rightside {
+  display: grid;
+  grid-template-rows: 1fr 200px;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+.leftside {
+  padding: 30px;
+}
+.checksection {
+}
+.textsection textarea {
+  width: calc(100%);
+  display: block;
+  height: 120px;
+  border: solid 1px #ccc;
+}
+
+.textsection {
+  padding: 20px;
+}
+
+.buttonok {
+  background-color: #0568a5;
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+  border-radius: 3px;
+  float: right;
+  margin-right: 30px;
+  cursor: pointer;
+  padding: 7px 15px;
+}
+
+.buttonok:hover {
+  background-color: #1d7eb9;
+}
+
+.products,
+.productsheader {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 100px 100px;
+}
+
+.productsheader {
+  background: #0568a5
+    linear-gradient(
+      rgba(255, 255, 255, 0.044) 0%,
+      rgba(255, 255, 255, 0.099) 50%,
+      transparent 50%,
+      transparent 100%
+    );
+  color: #fff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+}
+
+.name,
+.price,
+.avaprice {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.products:hover .name,
+.products:hover .price,
+.products:hover .avaprice {
+  padding: 5px;
+  background-color: #ddd;
+}
+
+.even .name,
+.even .price,
+.even .avaprice {
+  background-color: #eee;
+}
+
+.check input[type="checkbox"] {
+  display: inline-block;
+}
+
+.check {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 7px;
+}
+
+.check:hover {
+  background: rgb(230, 227, 227);
+}
+
+.checktext {
+  display: inline-block;
+}
+
+.selected .name,
+.selected .price,
+.selected .avaprice {
+  padding: 5px;
+
+  background: rgb(199, 198, 198);
+}
+
+.selected,
+.selected:hover {
+  border: solid 1px #bbb;
+}
+
+.selected:hover .name,
+.selected:hover .price,
+.selected:hover .avaprice {
+  padding: 5px;
+  background: rgb(199, 198, 198);
+}
+
+.checkinput::parent {
+  background: #1d7eb9;
+}
+
+.message {
+  position: fixed;
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  background-color: #fafafa;
+  box-shadow: 0px 0px 10px 7px rgba(0, 0, 0, 0.3);
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30px 1fr;
+}
+
+.message .content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  text-align: center;
+}
